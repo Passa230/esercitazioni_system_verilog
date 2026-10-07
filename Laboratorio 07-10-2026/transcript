@@ -1,0 +1,24 @@
+# Compile of registro_8_bit.sv failed with 1 errors.
+# Compile of registro_8_bit.sv was successful.
+vsim -gui work.registro_8_bit
+# vsim -gui work.registro_8_bit 
+# Start time: 09:42:05 on Oct 07,2026
+# Loading sv_std.std
+# Loading work.registro_8_bit
+add wave -position insertpoint sim:/registro_8_bit/*
+add wave -position insertpoint sim:/registro_8_bit/#ALWAYS#8/*
+vsim -gui work.registro_8_bit
+# End time: 09:42:51 on Oct 07,2026, Elapsed time: 0:00:46
+# Errors: 0, Warnings: 6
+# vsim -gui work.registro_8_bit 
+# Start time: 09:42:51 on Oct 07,2026
+# Loading sv_std.std
+# Loading work.registro_8_bit
+add wave -position insertpoint sim:/registro_8_bit/#ALWAYS#8/*
+add wave -position insertpoint  \
+sim:/registro_8_bit/d
+add wave -position insertpoint  \
+sim:/registro_8_bit/clk
+add wave -position insertpoint  \
+sim:/registro_8_bit/rst
+force d 1

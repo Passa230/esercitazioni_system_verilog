@@ -1,4 +1,4 @@
-module sommatore_4_bit (
+module sommatore_4_bit(
     input[3:0] a,
     input[3:0] b, 
     output[3:0] y
